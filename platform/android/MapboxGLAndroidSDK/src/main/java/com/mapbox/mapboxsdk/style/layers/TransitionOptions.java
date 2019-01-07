@@ -42,6 +42,7 @@ public class TransitionOptions {
    *
    * @return the transition duration
    */
+  @Keep
   public long getDuration() {
     return duration;
   }
@@ -51,6 +52,7 @@ public class TransitionOptions {
    *
    * @return the transition delay
    */
+  @Keep
   public long getDelay() {
     return delay;
   }
